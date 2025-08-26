@@ -1,0 +1,14 @@
+### POST Request to prediction API
+POST http://localhost:8081/api/astrology/predict/western
+Accept: application/json
+Content-Type: application/json
+
+{
+   "birthDate": "1986-10-04",
+   "birthTime": "17:23",
+   "city": "Νοσοκολειο Λάρισσας, Ελλάδα",
+   "yearOfForecast": 2025,
+  "sex": "Άνδρας"
+ }
+
+###
